@@ -1,16 +1,73 @@
-h1{
-    color: red;
+body{
+    margin: 0px 50px 0px 50px;
+
+}
+nav{
+    width: 100%;
+    background-color: black ;
+
+}
+nav h1 {
+    color: skyblue;
+    float: left;
+    padding-left: 25px;
+}
+nav ul{
+    padding: 20px;
+    text-align: right;
+}
+nav ul li {
+    color : rgb(38, 168, 219);
+    list-style: none;
+    display: inline;
+    padding: 15px 15px 15px 0px;
+}
+nav ul li a {
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: white;
+    font-weight: 500;
+}
+.blogs h3{
+    font-family:cursive;
+}
+.blogs p{
+    width: 700px;
+    text-align: justify;
+}
+.blogs p span a{
+    color:tomato;
+    font-weight: bold;
+    text-decoration: none;
 }
 form{
     padding: 5px;
-    border: 1px solid green;
-    width: 400px;
+    border: 3px solid black;
+    width: 500px;
+    border-radius: 5px;
+}
+form div{
+    margin: 5px;
 }
 form div label{
     margin-right: 20px;
-    border: 1px solid green;
     width: 400px;
 }
 form div input{
     font-family: cursive;
+    border-radius: 5px;
+}
+form div h3{
+    text-align: center;
+}
+footer{
+    color:white;    
+    text-align: center;
+    background-color: black;
+}
+footer p a{
+    color: skyblue;
+    padding: 10px;
+    text-decoration: none;
 }
